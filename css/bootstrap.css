@@ -6221,6 +6221,9 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  display: flex;
+  align-items: center;
 }
 
 .carousel-inner::after {
@@ -6363,6 +6366,7 @@ a.close.disabled {
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
   padding-left: 0;
   margin-right: 15%;
   margin-left: 15%;
